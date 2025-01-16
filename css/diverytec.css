@@ -1,0 +1,169 @@
+:root {
+  --azul: blue;
+  --centro: center;
+  --base: rgb(237 238 232);
+  --pie: rgb(176, 176, 162);
+  --blanco: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--base);
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h2,
+h3 {
+  color: var(--azul);
+  text-align: var(--centro);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+p {
+  padding-bottom: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.encabezado {
+  background-image: url("/img/twitter.png");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .encabezado {
+    height: 150px;
+  }
+}
+
+section {
+  max-width: 80%;
+  margin: auto;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.actividades p {
+  text-align: var(--centro);
+  margin: 0.5rem 0;
+  padding: 20px;
+}
+
+.galeria {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: var(--centro);
+}
+
+.unirse {
+  margin-top: 1rem;
+}
+
+.unirse img {
+  max-width: 40vw;
+  display: block;
+  margin: auto;
+}
+
+.unirse figcaption {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .unirse img {
+    max-width: 70vw;
+    height: auto;
+  }
+}
+
+.brecha {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .brecha {
+    grid-template-columns: 1fr;
+  }
+}
+
+.texto_brecha {
+  margin: auto;
+}
+
+.colabora {
+  max-width: 40vw;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.contenedor_edu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor_edu {
+    grid-template-columns: 1fr;
+  }
+  .colabora {
+    max-width: 70vw;
+  }
+}
+
+footer {
+  margin-top: 2rem;
+  min-height: 5rem;
+  background-color: var(--pie);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  color: var(--blanco);
+  text-align: var(--centro);
+  padding: 1rem;
+}
