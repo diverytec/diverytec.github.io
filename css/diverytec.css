@@ -20,6 +20,8 @@ h1 {
   text-align: var(--centro);
   padding: 20px;
   margin-top: 30px;
+  font-size: xx-large;
+  color: rgb(24, 62, 72);
 }
   
 h2 {
