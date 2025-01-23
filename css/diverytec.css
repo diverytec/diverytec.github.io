@@ -16,7 +16,7 @@ body {
   background-color: var(--base);
 }
 
-h1{
+h1 {
   text-align: var(--centro);
   padding: 20px;
   margin-top: 30px;
