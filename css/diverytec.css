@@ -16,6 +16,12 @@ body {
   background-color: var(--base);
 }
 
+h1{
+  text-align: var(--centro);
+  padding: 20px;
+  margin-top: 30px;
+}
+  
 h2 {
   text-decoration: underline;
 }
