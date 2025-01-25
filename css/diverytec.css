@@ -178,5 +178,15 @@ footer {
 footer p {
   color: var(--blanco);
   text-align: var(--centro);
-  padding: 1rem;
+  padding: 1rem 0.3rem 1rem 1rem;
+}
+
+.direccion {
+  display: flex;
+  align-items: center;
+}
+
+.redes_sociales img{
+  max-width: 30px;
+  height: auto;
 }
